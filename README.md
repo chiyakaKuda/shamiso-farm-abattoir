@@ -1,2 +1,4 @@
 # shamiso-farm-abattoir
-It is a group assignment of creating a website for a company 
+# Compnay Website for Shamiso Farm and Abattoir
+
+
