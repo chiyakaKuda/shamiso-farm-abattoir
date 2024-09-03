@@ -4,9 +4,17 @@ This is a website for Shamiso Farm and Abattoir, a company that sells meat produ
 
 ## Group Members 
 Kudakwshe Chiyaka
+
+
 Blessing Gudyanga
+
+
 Brendon Buwerimwe
+
+
 Kupdakwashe Chikata
+
+
 Shingiso Nyengerai
 
 
