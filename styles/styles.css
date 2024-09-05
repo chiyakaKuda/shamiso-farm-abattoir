@@ -160,6 +160,7 @@ ul{
     padding: 20px;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
+    border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -247,7 +248,7 @@ ul{
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
-    color: #fff;
+    color: #F5F5DC;
   }
   
   .motto {
@@ -256,11 +257,18 @@ ul{
     margin-bottom: 10px;
   }
   
-  .footer-column h4 {
+  .footer-column h3  {
     margin-top: 0;
+    color: #F5F5DC;
+  }
+  .footer-column h4 {
+    color: #F5F5DC;
+  }
+  .footer-column p {
+    color: #F5F5DC;
   }
   .footer-column a{
-    color: #fff;
+    color: #F5F5DC;
   }
   
   .social-media {
@@ -268,7 +276,7 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex ;
     z-index: 1;
   }
   
@@ -277,7 +285,7 @@ ul{
   }
   
   .social-media a {
-    color: #fff;
+    color: #F5F5DC;
     text-decoration: none;
   }
   
@@ -288,5 +296,10 @@ ul{
   .fab {
     font-size: 24px;
   }
-
+  .footer-column .logo span {
+    color: #F5F5DC;
+}
+.social-media li a:hover i {
+  color: #FFC080; /* replace with the color you want */
+}
   
