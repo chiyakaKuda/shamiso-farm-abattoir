@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: url("/img/bg.jpg") center/cover;
+  
 }
 
 body::before {
@@ -54,7 +54,9 @@ header {
     gap: 40px;
     flex-wrap: wrap;
 }
-
+ul{
+    list-style: none;
+}
 .menu-links li {
     margin-right: 20px; 
 }
@@ -83,6 +85,8 @@ header {
    display:flex;
    align-items: center;
    padding: 0 20px;
+  
+   background: url("/img/bg.jpg") center/cover;
 }
 .hero-section .content{
     position: relative;
@@ -149,4 +153,73 @@ header {
     }
   }
 
-  /* This Styles are for the */
+  /*--------------------- This Styles are for the Featured Products Sections*------------*/
+  .featured-products {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .product {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .product button {
+    background-color: #964B00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #FFC080;
+  }
+  
+  .view-all {
+    background-color: #964B00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .view-all:hover {
+    background-color: #FFC080;
+  }
+  

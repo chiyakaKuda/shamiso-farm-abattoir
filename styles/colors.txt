@@ -1,0 +1,6 @@
+Main Color: #8B0A1A (Dark Red, used for the button hover effect)
+Primary Color: #E2786F (Warm Red-Brown, great for backgrounds or accents)
+Secondary Color: #964B00 (Deep Brown, suitable for text or outlines)
+Accent Color: #FFC080 (Vibrant Orange, adds a pop of color for highlights)
+Background Color: #F5F5DC (Light Beige, provides a clean and neutral background)
+Text Color: #333 (Dark Gray, used for regular text)
