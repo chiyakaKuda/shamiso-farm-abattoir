@@ -1,93 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content ="width=device-width",initial-scale="1.0">
-	<title>Shamiso Farms - Products</title>
-	<link rel="stylesheet" href="products.css">
+	<title>Shamiso Meats</title>
+    <link rel="icon" href="/img/logo.ico" type="image/x-icon" class="favicon">
+    <link rel="stylesheet" href="/styles/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 <body>
-	<h1 class="heading">PRODUCTS</h1>
-<p>
-	<div class="slider">
-		<figure>
-			<div class="slide">
-				<img src="images/beef2.jpg" alt="Beef">
-				
+	<header>
+		<nav class="navbar">
+			<a href="/index.html" class="logo">Shamiso Meats<span>.</span></a>
+			<ul class="menu-links">
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/pages/products.html">Products</a></li>
+				<li><a href="/pages/about.html">About Us</a></li>
+				<li><a href="/pages/contact.html">Contact Us</a></li>
+				<li><a href="/pages/developers.html">Developers</a></li>
+				 
+			</ul>
+		</nav>
+	   </header>
+<main>
+	<div class="container">
+		<div class="flexslider">
+		  <ul class="slides">
+					  <li>
+		  <img src="/img/bg.jpg" alt="Slider Banner" />
+		  <div class="slider-caption">
+			<h2 class="slider-title">Wide range of Beaf</h2>
+			<div class="clearfix"><p class="slider-description">Enjoy the savory and juicytextures of our artisinal sausage, perfect for the grill or in a recipe, specially crafted for you..</p></div>
+			<a href=/sports class="more-link">View more</a>
+		  </div>
+		</li>
+					  <li>
+		  <img src="/img/bg.jpg" alt="Slider Banner" />
+		  <div class="slider-caption">
+			<h2 class="slider-title">Suasages </h2>
+			<div class="clearfix"><p class="slider-description">Enjoy the savory and juicytextures of our artisinal sausage, perfect for the grill or in a recipe, specially crafted for you. </p></div>
+			<a href=# class="more-link">View more</a>
+		  </div>
+		</li>
+					  <li>
+		  <img src="/img/bg.jpg" alt="Slider Banner" />
+		  <div class="slider-caption">
+			<h2 class="slider-title">Pork</h2>
+			<div class="clearfix"><p class="slider-description">Enjoy the savory and juicytextures of our artisinal sausage, perfect for the grill or in a recipe, specially crafted for you.</p></div>
+			<a href=/sports class="more-link">View more</a>
+		  </div>
+		</li>
+		<li>
+			<img src="/img/bg.jpg" alt="Slider Banner" />
+			<div class="slider-caption">
+			  <h2 class="slider-title">Beef</h2>
+			  <div class="clearfix"><p class="slider-description">Enjoy the savory and juicytextures of our artisinal sausage, perfect for the grill or in a recipe, specially crafted for you.</p></div>
+			  <a href=/sports class="more-link">View more</a>
 			</div>
-		
-					<div class="slide">
-						<img src="images/chicken 2.jpg" alt="chicken">
-						
-					</div>
-		
-							<div class="slide">
-								<img src="images/sausage3.jpg" alt="Sausage">
-							</div>
-							<div class="slide">
-								<img src="images/pork3.jpg" alt="pork">
-							</div>
-								
-						
-				
+		  </li>
+					  <li>
+		  <img src="/img/bg.jpg" alt="Slider Banner" />
+		  <div class="slider-caption">
+			<h2 class="slider-title">Beef</h2>
+			<div class="clearfix"><p class="slider-description">Enjoy the savory and juicytextures of our artisinal sausage, perfect for the grill or in a recipe, specially crafted for you.</p></div>
+			<a href=/sports class="more-link">View more</a>
+		  </div>
+		</li>
+		<li>
+			<img src="/img/bg.jpg" alt="Slider Banner" />
+			<div class="slider-caption">
+			  <h2 class="slider-title">Beef</h2>
+			  <div class="clearfix"><p class="slider-description">Enjoy the savory and juicytextures of our artisinal sausage, perfect for the grill or in a recipe, specially crafted for you.</p></div>
+			  <a href=/sports class="more-link">View more</a>
+			</div>
+		  </li>
+				  </ul>
 		</div>
-		</figure>
-			</div>
-</p>
-<p>
-	
-</p>
-	
-	<div class="product-grid">
-			
-		</div>
-		<div class="product">
+	  </div>
+</main>
 
-			<div class="beef">
-				<h2>Beef</h2>
-				<img class="image" src="images/beef2.jpg" alt="Beef">
-			<p>Our beef is sourced from local farms , ensuring the highest quality and freshness with every cut. Suitable for a grill or a stew!!</p>
-				<p>Price : $3 per kg </p>
-				
-			</div>
+<script>
+	const slides = document.querySelectorAll('.slides li');
+const prevButton = document.createElement('div');
+const nextButton = document.createElement('div');
+prevButton.className = 'prev-button';
+nextButton.className = 'next-button';
+prevButton.innerHTML = '&#10094;';
+nextButton.innerHTML = '&#10095;';
 
+const flexslider = document.querySelector('.flexslider');
+flexslider.appendChild(prevButton);
+flexslider.appendChild(nextButton);
 
-			<div class="chicken">
-				<h2>Chicken</h2>
-				<img class="image" src="images/chicken 2.jpg" alt="Chicken">
-				<p>	  Enjoy the versatality of our chicken products, great for frying or baking or a slow cook roast!!! </p>
-				<p>Price : $4,50  per kg</p>
-			</div>
+let currentIndex = 0;
 
+function showCurrentSlide() {
+  const translateX = currentIndex * -100 + '%';
+  document.querySelector('.slides').style.transform = `translateX(${translateX})`;
+}
 
-			<div class="sausage">
-				<h2>Sausage</h2>
-				<img class="image" src="images/sausage 2.jpeg" alt="Sausage">
-				<p >Enjoy the  savory and juicytextures of our artisinal sausage, perfect for the grill or in a recipe, specially crafted for you. Available in flavours such as 
-					<ol class="list">
-						<li>Boerowors</li>
-						<li>Smoked</li>
-						<li>Russian sausages</li>
-						<li>BBQ</li>
-					</ol>
-				</p>
-				<p>Price: $3 per kg</p>
-			</div>
+function goPrevious() {
+  currentIndex--;
+  if (currentIndex < 0) {
+    currentIndex = slides.length - 1;
+  }
+  showCurrentSlide();
+}
 
+function goNext() {
+  currentIndex++;
+  if (currentIndex >= slides.length) {
+    currentIndex = 0;
+  }
+  showCurrentSlide();
+}
 
-			<div class="pork">
-				<h2>Pork</h2>
-				
-				<img class="image" src="images/pork.jpg" alt="Pork">
-				<p>Discover the tender and flavorful world of our pork products, from succulent roasts to crispy bacon</p>
-				<p>Price: $1 per kg </p
-			</div>
-			
-		</div>
-		
-			
-		
-		
-	</div>
+prevButton.addEventListener('click', goPrevious);
+nextButton.addEventListener('click', goNext);
+
+showCurrentSlide();
+
+setInterval(goNext, 10000); // Go to the next slide every 5 seconds
+</script>
 </body>
 </html>

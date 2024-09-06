@@ -302,4 +302,71 @@ ul{
 .social-media li a:hover i {
   color: #FFC080; /* replace with the color you want */
 }
+  /*Products Pages*/
+  /*Slide Show*/
+  .carousel-inner {
+    display: flex; /* make the carousel items flex items */
+    flex-wrap: nowrap; /* prevent wrapping to next line */
+    overflow-x: hidden; /* hide horizontal scrollbar */
+  }
   
+  /* Carousel item styles */
+  .carousel-item {
+    display: flex; /* make each item a flex container */
+    flex-direction: column; /* stack image, heading, and description vertically */
+    align-items: center; /* center the content horizontally */
+    width: 100%; /* make each item take full width */
+    margin: 0 20px; /* add some margin between items */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* make the image take full width */
+    height: 200px; /* adjust the image height to fit your needs */
+    object-fit: cover; /* make the image cover the entire area */
+    border-radius: 10px; /* add some border radius for a nicer look */
+  }
+  
+  .carousel-item h2 {
+    font-size: 24px; /* adjust the font size to fit your needs */
+    margin-bottom: 10px; /* add some margin between heading and description */
+  }
+  
+  .carousel-item p {
+    font-size: 18px; /* adjust the font size to fit your needs */
+    color: #666; /* adjust the text color to fit your needs */
+  }
+  
+  /* Carousel navigation styles */
+  .carousel-prev, .carousel-next {
+    position: absolute; /* position the navigation buttons absolutely */
+    top: 50%; /* center the buttons vertically */
+    transform: translateY(-50%); /* adjust the button position */
+    background-color: #fff; /* adjust the button background color */
+    border: none; /* remove the button border */
+    padding: 10px 20px; /* add some padding to the buttons */
+    font-size: 18px; /* adjust the font size to fit your needs */
+    cursor: pointer; /* make the buttons clickable */
+  }
+  
+  .carousel-prev {
+    left: 10px; /* position the previous button on the left */
+  }
+  
+  .carousel-next {
+    right: 10px; /* position the next button on the right */
+  }
+  
+  .carousel-prev:hover, .carousel-next:hover {
+    background-color: #ddd; /* adjust the button hover background color */
+  }
+  /************************/
+
+
+  /**/
+  .developers{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  /**/
